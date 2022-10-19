@@ -1,4 +1,5 @@
 import br.com.dio.desafio.dominio.Mentoria;
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 
 public class Main {
@@ -18,5 +19,8 @@ public class Main {
         mentoria.setDescricao("Descrição muito massa da mentoria");
 
         System.out.println(curso1);
+        System.out.println(curso2);
+        System.out.println(mentoria);
+
     }
 }
